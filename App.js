@@ -6,7 +6,7 @@ import convert from 'convert-units';
 import Constants from 'expo-constants';
 import { color, Value } from 'react-native-reanimated';
 import {Picker} from '@react-native-community/picker';
-import {SimpleLineIcons} from '@expo/vector-icons'
+import {SimpleLineIcons} from '@expo/vector-icons';
 
 const measures = convert().measures()
 const MeasureView = ({measure, value, setValue}) => {
